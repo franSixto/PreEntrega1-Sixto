@@ -4,18 +4,12 @@ const Links = () => {
     return (
             <>
             <li className="nav-item">
-                <a className="nav-link active" href="#">Home
+                <a className="nav-link active" href="#">Productos
                   <span className="visually-hidden">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Features</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#">Contacto</a>
               </li>
             </>
     );

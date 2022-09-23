@@ -1,15 +1,19 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Form from './components/Form';
-
 import './App.css';
+import CardsContainer from './components/CardsContainer';
 
 
 const App = () => {
+
     return (
-      <>
+      <><body>
         <Navbar/>
-        <Form accion="Buscar" busqueda="Busca tu carrera ideal"/>
+        {}
+        <CardsContainer/>
+        {}
+        
+        </body>
       </>
     );
 }
